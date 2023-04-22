@@ -109,3 +109,10 @@ $ git merge <branch_2>
 ```bash
 $ git branch -d <branch_want_to_delete>
 ```
+
+## 9. Git set remote URL
+
+```bash
+$ git remote add origin <URL>
+$ git push --set-upstream origin master
+```
