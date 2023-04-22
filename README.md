@@ -95,3 +95,17 @@ $ git checkout <New branch name>
 # Method 2: Combine 1 command line
 $ git checkout -b <New branch name>
 ```
+
+## 7. Git merge
+Merge branch 2 into branch 1
+
+```bash
+$ git checkout <branch_1>
+$ git merge <branch_2>
+```
+
+## 8. Git delete branch
+
+```bash
+$ git branch -d <branch_want_to_delete>
+```
